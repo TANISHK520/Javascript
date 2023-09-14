@@ -52,3 +52,33 @@ ex:typeof(function)->Function (we call it function object)
 
 
 */
+
+/*
+stack memory ->used by primitive data types ->call by value ->value milega , no change in original value
+heap memory->used by non primitive data types ->call by reference ->whatsoever changes will reflected in original value*/
+ 
+
+let channalName="one"
+// pass by value 
+let channalName1=channalName
+console.log(channalName)
+console.log(channalName1)
+channalName1="two"
+console.log(channalName)
+console.log(channalName1);
+
+
+
+let user1={
+    name:"Tanish",
+    age:22,
+}
+// pass by reference
+let user2=user1
+console.log(user1.name);
+console.log(user2.name);
+user2.name="kapoor"
+console.log(user1.name);
+console.log(user2.name);
+
+
