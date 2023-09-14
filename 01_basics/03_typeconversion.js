@@ -49,6 +49,43 @@ let stringNo=String(no)
 console.log(stringNo);
 console.log(typeof stringNo);  /*33=>"33"*/
 console.log("hi");
+console.log(2+2);
+console.log(2*2);
+console.log(2-2);
+console.log(2**2);
+console.log(2/2);
+console.log(7%2);
+
+let str1="Tanish"
+let str2=" Kapoor"
+let str3=str1+str2
+console.log(str3);
+
+console.log(1+"2");
+console.log("1"+2);
+console.log("1"+2+2);
+console.log(1+2+"2");
+console.log(2>1);
+
+console.log(null>0); /*f */
+console.log(null<0); /*f */
+console.log(null<=0); /* t*/
+console.log(null>=0);/* t*/
+console.log(null==0);/*f */
+/****************************************************************/
+/*in javascript == equality check and > < >= <= works deiiferently. 
+these > < >= <= convert null to 0 then do comparisons thats why null<=0 is true*/
+/***************************************************************************** */
+
+console.log(undefined>0);
+console.log(undefined<0);
+console.log(undefined<=0);
+console.log(undefined>=0);
+console.log(undefined==0);
+
+
+
+
 
 
 
