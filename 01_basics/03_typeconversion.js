@@ -88,6 +88,8 @@ console.log("2"==2); /*t */
 console.log("2"===2);/*f*/
 // === checks value as well as datatype
 
+/*note: Avoid these type of conparisons write clean code*/
+
 
 
 
