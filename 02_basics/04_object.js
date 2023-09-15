@@ -104,3 +104,43 @@ console.log(tinderUser.hasOwnProperty("age"))
 
 
 
+
+
+
+
+/*::destructuring of objects::*/
+
+const course={
+    name:"js",
+    courseInstructor:"hitesh",
+    fee:0,
+}
+console.log(course.courseInstructor);
+console.log(course["courseInstructor"]);
+
+/*defragment : now we can access directly
+also we can change name by using */
+const {courseInstructor}=course
+console.log(courseInstructor);
+
+/*give easy name*/
+const {courseInstructor:instructor}=course
+console.log(courseInstructor);
+
+
+
+
+// api in json fomrat
+/*
+{
+
+}
+
+[
+    {},
+    {},
+    {}
+]
+
+*/
+
