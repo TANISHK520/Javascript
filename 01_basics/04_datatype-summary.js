@@ -1,5 +1,5 @@
 /*
-Data types-> primitive data types and non primitive datatypes
+Data types-> primitive data types and non primitive datatypes : depend upon how they stored and get accessed in memory
                     |                              |
                 call by value                  call by reference                [DIFFERENCE]
                     |
@@ -23,6 +23,7 @@ therefore javascript is dynamically typed language becox bydfalu score is number
 
 const id=Symbol('122'); 
 const otherId=Symbol('122);
+both of them return different value this is use of symbol
 console.log(id===otherid)=>false;
 ******************************************************************************************************************************************
 
