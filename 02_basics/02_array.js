@@ -33,7 +33,7 @@ const ar1=[1,2,3]
 
 const ar2=[4,5,6]
 
-const ar3=[7,8,9]
+const ar3=[7,8,9,[6,78]]
 
 const ne=[...ar1,...ar2,...ar3]
 console.log(ne)
@@ -41,12 +41,13 @@ console.log(ne)
 
 
 
-const another_array=[1,2,3,[4,5,6],7,[6,7],[4,5]]
+const another_array=[1,2,3,[4,5,6],7,[6,7],[4,5,[77,79]]]
 const useable_another_array=another_array.flat(Infinity) /*infinity is depth here  */
 console.log(useable_another_array);
 
 /**note */
 console.log(Array.isArray("Tanish"));
+// to convert into array
 console.log(Array.from("Tanish"));
 
 console.log(Array.from({name:"tanish"})); /*specify what to array*/
