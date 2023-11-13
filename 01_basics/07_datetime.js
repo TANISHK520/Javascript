@@ -29,6 +29,7 @@ console.log(myCreatedDate4.toString());
 let myCreatedDate5=new Date(2023,0,23,5,3,13)
 console.log(myCreatedDate5.toString());
 
+
 /*month-date-year in htis 1->jan*/
 let myCreatedDate6=new Date("01-14-2023")
 console.log(myCreatedDate6.toString());

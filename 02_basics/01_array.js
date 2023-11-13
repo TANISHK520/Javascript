@@ -57,6 +57,8 @@ console.log(a1);
 console.log(sp);
 /*
 note; Main difference is due to slice there is no change in original array but due to splice there is change in original array
+slice : 1 to end-1 and no change in original array
+splice: 1 to end and change in original array
 */
 
 

@@ -6,6 +6,8 @@ console.log(score);
 const score1=new Number(400)
 console.log(score1);
 console.log(score1+1);
+console.log(score1)
+
 console.log(typeof score1.toString());
 console.log(score1.toString().length);
 /*Precision */
@@ -14,6 +16,8 @@ console.log(score1.toFixed(3));
 
 const other=123.567
 console.log(other.toPrecision(4));
+console.log(other.toPrecision(5));
+
 
 const hundreds=1000000
 console.log(hundreds.toLocaleString('en-IN'));
