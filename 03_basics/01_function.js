@@ -47,3 +47,11 @@ console.log(loginUserMessage("tanish"))
 console.log(loginUserMessage())
 // note:::
 // if username="sam" , if pass nothing then print sam just loggedin . if wala never get executed
+
+
+
+
+fu
+
+
+
