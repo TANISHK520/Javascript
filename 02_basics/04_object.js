@@ -2,10 +2,20 @@ const tinderUser=new Object();
 /*noe this is silgleton object  */
 console.log(tinderUser);
 
+const tinderUser1={
+
+}
+console.log(tinderUser1)
+
+// difference in above two are forst one is singleton object and second is non singleton object
+
+ 
 tinderUser.id="123abc";
 tinderUser.name="Sammy";
 tinderUser.isLoggedIn=false;
 console.log(tinderUser);
+
+
 
 /*nested object*/
 const regularUser={
@@ -45,7 +55,7 @@ console.log(obj3);
 /*changes in obj1 */
 // console.log(obj4);
 /*{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' } */
-console.log(obj1);
+// console.log(obj1);
 // { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
 
@@ -58,6 +68,7 @@ console.log(obj1);
 /*using spread operator*/
 const obj7={...obj1,...obj2}
 console.log(obj7)
+console.log(obj1);
 
 
 
@@ -108,6 +119,7 @@ console.log(tinderUser.hasOwnProperty("age"))
 
 
 
+
 /*::destructuring of objects::*/
 
 const course={
@@ -120,12 +132,13 @@ console.log(course["courseInstructor"]);
 
 /*defragment : now we can access directly
 also we can change name by using */
+/*const curly braces=kaha se value exttract krninhai */
 const {courseInstructor}=course
 console.log(courseInstructor);
 
 /*give easy name*/
 const {courseInstructor:instructor}=course
-console.log(courseInstructor);
+console.log(instructor);
 
 
 
