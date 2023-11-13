@@ -51,7 +51,5 @@ console.log(loginUserMessage())
 
 
 
-fu
-
 
 
