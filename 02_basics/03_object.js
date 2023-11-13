@@ -34,7 +34,7 @@ jsUser.email="jn@er"
 
 // Object.freeze(jsUser)
 /*if we change now we are not able to , no error but there is no change */
-jsUser.email="jn@newc" /*no error but value remain same */
+/*jsUser.email="jn@newc" /*no error but value remain same */
 console.log(jsUser["email"]);
 
 
