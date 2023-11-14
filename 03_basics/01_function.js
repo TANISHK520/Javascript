@@ -51,5 +51,20 @@ console.log(loginUserMessage())
 
 
 
+console.log("multiple argument in function")
+
+function cart(...num1){
+    return num1
+}
+console.log(cart(200,300,400))
+
+
+
+
+function cart(num2,num3,...num1){
+    return num1
+}
+console.log(cart(200,300,400,500,600))
+
 
 
