@@ -32,6 +32,8 @@ console.log(`Result is ${result}`)
 
 
 
+
+
 function loginUserMessage(username="sam"){
     // !username is equivalent to username==undefined , !username used in industry !undefined means true krdo then go to if block
     if(username==undefined){
@@ -51,8 +53,12 @@ console.log(loginUserMessage())
 
 
 
+
+
 console.log("multiple argument in function")
 
+// ...rest and spread operator :depend upon use case we call it rest or spread
+// here ... means rest operator :argument kaafi hai , baandh do ek array me
 function cart(...num1){
     return num1
 }
@@ -60,11 +66,49 @@ console.log(cart(200,300,400))
 
 
 
-
-function cart(num2,num3,...num1){
+function cart(val1,val2,...num1){
     return num1
 }
 console.log(cart(200,300,400,500,600))
+
+
+
+
+
+
+const user={
+    username:"tanish",
+    location:"pune"
+}
+
+function handleObject(anyobject){
+    return `username is ${anyobject.username} and location is ${anyobject.location}`
+}
+
+console.log(handleObject(user))
+
+// direct pass object in function and function have generic defination
+console.log(handleObject({
+    username:"hitest",
+    location:"india"
+}))
+
+
+
+
+
+
+const myarr=[1,2,3,4]
+function printSec(anyarr){
+    return anyarr[1]
+}
+console.log(printSec(myarr))
+console.log(printSec([4,5,6]))
+
+
+
+
+
 
 
 
